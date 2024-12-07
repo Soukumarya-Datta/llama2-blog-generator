@@ -33,9 +33,9 @@ st.set_page_config(page_title="Generate Blogs",
                     layout='centered',
                     initial_sidebar_state='collapsed')
 
-st.header("Generate Blogs 🤖")
+st.header("Blogs Generator 🤖")
 
-input_text=st.text_input("Enter the Blog Topic") # for blog topic
+input_text=st.text_input("Topic", placeholder="Enter the Blog Topic") # for blog topic
 
 col1,col2=st.columns([5,5])
 
